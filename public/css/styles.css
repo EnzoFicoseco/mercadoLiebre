@@ -1,0 +1,180 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: black 1px solid;
+}
+body{
+    background-color: #ebebeb;
+}
+main{
+    width: 90%;
+    margin: auto;
+    background-color: #ebebeb;
+    padding: 0%;
+    padding-bottom: 15px;
+}
+.banner{
+    margin: 0;
+    padding: 0;
+}
+.banner img{
+    width: 100%; /* O el ancho deseado */
+    max-width: 100%; /* Para evitar que el banner sea más grande que su tamaño original */
+    height: auto; 
+}
+.last-visit .products article img {
+    width: 350px;
+  }
+  .offers .products article img {
+    width: 350px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  .price{
+    font-size: 18px;
+  }
+  .discount{
+    font-size: 16px;
+    color: #39b54a;
+  }
+  .product-name{
+    font-size: 16px;
+    display: none;
+  }
+  p{
+    font-size: 12px;
+  }
+  header{
+    background-color: #EAC926;
+  }
+  .search-bar{
+    display: none;
+  }
+  .login-bar{
+    display: none;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .top-header{
+    padding: 15px;
+    padding-bottom: 10px;
+  }
+  .header-message p{
+    text-align: center;
+  }
+  .top-header div{
+    padding: 5px;
+  }
+  .navbar input{
+    width: 200px;
+  }
+  nav div{
+    padding: 10px;
+  }
+  nav div ul li{
+    list-style-type: none;
+  }
+  nav div ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0px;
+  }
+  .burger-menu{
+    padding-bottom: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .burger-menu i{
+    padding: 10px;
+    border-radius: 12%;
+    background-color: #1259c3;
+    color: white;
+  }
+  footer{
+    text-align: center;
+    background-color: white;
+  }
+  .products article{
+    background-color: white;
+  }
+  footer div{
+    padding: 40px;
+  }
+  footer div i{
+    font-size: 2rem;
+    color: #1259c3;
+  }
+  .last-visit article{
+    margin: 10px;
+  }
+  .offers article{
+    margin: 10px;
+  }
+  .main-article{
+    border: 1px solid #ebebeb;
+    padding: 15px;
+  }
+  main .products i{
+    color: #39b54a;
+  }
+  .product-desc-box > .product-delivery-icon{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+    .product-desc-box {
+    position: relative;
+    }
+  @media (min-width: 426px) {
+    .product-name{
+        font-size: 16px;
+        display: block;
+      }
+    main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      }
+    .search-bar{
+        display: block;
+      }
+      .login-bar{
+        display: block;
+      }
+      .burger-menu{
+        display: none;
+      }
+      .banner img{
+        width: 300px;
+        height: 110px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .product-name{
+        font-size: 16px;
+        display: block;
+      }
+      main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .search-bar{
+        display: block;
+      }
+      .login-bar{
+        display: block;
+      }
+      .burger-menu{
+        display: none;
+      }
+  }
+

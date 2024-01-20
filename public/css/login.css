@@ -1,0 +1,28 @@
+.main-login{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.main-login div{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0 25px;
+    
+}
+
+.main-login div input{
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.login-submit{
+    width: 65px;
+    padding: 10px;
+    background-color: #1259c3;
+    border-radius: 10px;
+    transition: background-color, 2s;
+}
+
+
+.submit:hover{
+    background-color:#0022AA ;
+}

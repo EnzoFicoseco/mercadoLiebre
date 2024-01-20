@@ -1,0 +1,59 @@
+.main-register{
+    background-color: #ebebeb ;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.main-register div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0 15px;
+    
+}
+
+.laber_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-register .input_text input{
+    width: 350px;
+    border-radius: 15px;
+    padding: 10px;
+    
+    
+}
+
+.perfil_user_bot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.perfil_user_bot label{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.category_check{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category_check label{
+    width: 150px;
+}
+
+.form__group{
+    height: 100px;
+}
+
+.form__group button{
+    height: 30px;
+    width: 25%;
+}

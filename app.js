@@ -11,3 +11,7 @@ app.get("/", function(req, res){
     const homePath = path.join(__dirname, "/views/home.html");
     res.sendFile(homePath);
 })
+app.get("/registro", function(req, res){
+    const homePath = path.join(__dirname, "/views/register.html");
+    res.sendFile(homePath);
+})

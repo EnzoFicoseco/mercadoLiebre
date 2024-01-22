@@ -15,9 +15,10 @@
     border-radius: 10px;
 }
 .login-submit{
-    width: 65px;
+    width: 500px;
     padding: 10px;
-    background-color: #1259c3;
+    background-color: #0044AA;
+    color: white;
     border-radius: 10px;
     transition: background-color, 2s;
 }

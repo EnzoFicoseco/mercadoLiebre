@@ -57,3 +57,15 @@
     height: 30px;
     width: 25%;
 }
+
+.reset-button{
+    background-color: #666;
+    color: white;
+    border-radius: 10px;
+}
+
+.submit-button{
+    background-color: #0044AA;
+    color: white;
+    border-radius: 10px;
+}

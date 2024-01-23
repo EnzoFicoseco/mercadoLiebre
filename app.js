@@ -5,7 +5,9 @@ const app = express();
 
 app.use(express.static("public"));
 
-app.listen(3080, console.log("Server up on port: 3080"));
+const PORT  = process.env.PORT || 3080
+
+app.listen( PORT, () => console.log(`Server up on PORT:  http://localhost:${PORT}`) )
 
 app.get("/", function(req, res){
     const homePath = path.join(__dirname, "/views/home.html");

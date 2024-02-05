@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head.ejs') %>
+        <link rel="stylesheet" href="/css/login.css">
+        <title>Ingresá!</title>
+    </head>
+<body>
+    <header>
+        <%- include('./partials/header.ejs') %>
+    </header>
+    <main class="main-login">
+        <form action="/login" method="get">
+            <div>
+                <input type="text" name="user" id="user" required placeholder="Nombre de Usuario">
+            </div>
+            <div>
+               <input type="password" name="pass" id="pass" required placeholder="Ingresa tu Contraseña">
+            </div>
+            <div class="form__group">
+                <button class="login-submit" type="submit">Enviar</button>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <%- include('./partials/footer.ejs') %>
+    </footer>
+</body>
+</html>

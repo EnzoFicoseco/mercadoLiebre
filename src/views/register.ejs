@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include('./partials/head.ejs') %>
+        <link rel="stylesheet" href="/css/register.css">
+        <title>Registrate!</title>
+    </head>
+<body>
+    <header>
+        <%- include('./partials/header.ejs') %>
+    </header>
+    <main class="main-register">
+        <form action="#" method="get">
+            <div class="input_text">
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
+            </div>
+            <div class="input_text">
+                <input type="text" name="user" id="user" placeholder="Nombre de Usuario">
+            </div>
+            <div class="input_text">
+                <input type="email" name="mail" id="mail" placeholder="Email">
+            </div >
+                <label class="laber_title" for="date">Fecha de Nacimiento</label>
+            <div class="input_text">
+                <input type="date" name="date" id="date" placeholder="mm / dd / yyyy">
+            </div>
+            <div class="input_text">
+                <input type="text" name="address" id="address" placeholder="Domicilio">
+            </div>
+            <label class="laber_title" for="perfil_user">Perfil de Usuario:</label>
+            <div class="perfil_user_bot">
+                <div class="perfil_user_buy">
+                    <input type="radio" name="perfil_user" id="perfil_user" value="comprador">
+                    <label for="">Comprador</label>
+                </div>
+                <div class="perfil_user_sale">
+                    <input type="radio" name="perfil_user" id="perfil_user" value="vendedor">
+                    <label for="">Vendedor</label>
+                </div>
+            </div>
+            <label class="laber_title" for="category">Categoria de Interes:</label>
+            <div class="category_check">
+                <div>
+                    <label for="">Electro</label>
+                    <input type="checkbox" name="category" id="category" value="electro">
+                </div>
+                <div>
+                    <label for="">Moda</label>
+                    <input type="checkbox" name="category" id="category" value="moda">
+                </div>
+                <div>
+                    <label for="">Hogar</label>
+                    <input type="checkbox" name="category" id="category" value="hogar">
+                </div>
+                
+                <div>
+                    <label for="">Jugueteria</label>
+                    <input type="checkbox" name="category" id="category" value="jugueteria">
+                </div>
+                
+                <div>
+                    <label for="">Vida Sana</label>
+                    <input type="checkbox" name="category" id="category" value="vidaSana">
+                </div>
+               
+            </div>
+            <label class="laber_title" for="photo">Foto de usuario</label>
+            <div>
+                
+                <input type="file" name="photo" id="photo" disabled>
+            </div>
+            <div class="input_text">
+                <input type="password" name="pass" id="pass" placeholder="Contraseña">
+            </div>
+            <div class="input_text">
+                <input type="password" name="rePass" id="rePass" placeholder="Confirmar Contraseña">
+            </div>
+            <div class="form__group">
+                <button type="reset" class="reset-button">Limpiar</button>
+                <button type="submit" class="submit-button">Enviar</button>
+            </div>
+
+
+        </form>
+
+
+    </main>
+    <footer>
+        <%- include('./partials/footer.ejs') %>
+    </footer>
+</body>
+</html>

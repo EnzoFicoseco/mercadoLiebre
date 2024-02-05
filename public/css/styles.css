@@ -30,7 +30,6 @@ p{
 div.top-header{
   display: flex;
   flex-wrap: wrap;
-  padding: 5%;
 }
 
 header div.top-header p{
@@ -40,7 +39,7 @@ header div.top-header p{
 }
 
 header{
-  background-color: #EAC926;
+  background-color: #EAC926;;
 }
 
 header div.logo,
@@ -140,6 +139,7 @@ h3,
 img {
   max-width: 100%; /* La imagen no superará el 100% del ancho del contenedor */
   height: auto;   /* Mantiene la proporción de la imagen */
+  width: 200px;
 }
 
 main{
@@ -226,7 +226,8 @@ main section article i,
     background-color: white;
   }
   footer div{
-    padding: 40px;
+    padding: 25px;
+    padding-top: 30px;
   }
   footer div i{
     font-size: 2rem;
@@ -270,14 +271,19 @@ main section article i,
 
 @media (min-width: 769px){
 
-  .input{
+    .input{
     width: 225px;
   }
 
     main section div.products article{
         width: 22%;
     }
+
+    header div.logo{
+      width: 30%;
+  }
 }
+
 
 @media (min-width: 426px){
 
@@ -318,4 +324,17 @@ main section article i,
     display: none;
   }
 
+  
+
 }
+
+
+
+/*  animacion del camioncito
+ main section div i:hover {
+    animation: rotando 2s infinite;
+}
+@keyframes rotando{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    */
